@@ -18,4 +18,4 @@ services:
     volumes:
       - ./certbot/conf:/etc/letsencrypt
       - ./certbot/www:/var/www/certbot
-    command: certonly --webroot -w /var/www/certbot --force-renewal --email romanets2003@bk.ru -d yanre.ru --agree-tosg
+    command: certonly --webroot -w /var/www/certbot --force-renewal --email romanets2003@bk.ru -d yanre.ru --agree-tos
